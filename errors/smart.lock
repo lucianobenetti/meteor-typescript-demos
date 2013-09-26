@@ -3,7 +3,10 @@
   "dependencies": {
     "basePackages": {
       "typescript-compiler": {},
-      "typescript-libs": {}
+      "typescript-libs": {
+        "path": "../../meteor-typescript-libs"
+      },
+      "errors": {}
     },
     "packages": {
       "typescript-compiler": {
@@ -12,9 +15,12 @@
         "commit": "9242d3f292223eb0272e51a36c21244196a80f3a"
       },
       "typescript-libs": {
-        "git": "https://github.com/orefalo/meteor-typescript-libs.git",
-        "tag": "v0.1.3",
-        "commit": "5b26b9399cb15fea6d568c0d2b078ebabded3aee"
+        "path": "../../meteor-typescript-libs"
+      },
+      "errors": {
+        "git": "https://github.com/tmeasday/meteor-errors.git",
+        "tag": "v0.2.0",
+        "commit": "b7cc525c19defe2dc744e8e34d1328b430f3e03a"
       }
     }
   }

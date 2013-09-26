@@ -1,0 +1,9 @@
+{
+	"packages": {
+		"iron-router": {},
+		"typescript-compiler": {},
+		"typescript-libs": {
+			"path": "../../meteor-typescript-libs/"
+		}
+	}
+}
