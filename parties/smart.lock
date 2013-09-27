@@ -13,8 +13,8 @@
       },
       "typescript-libs": {
         "git": "https://github.com/orefalo/meteor-typescript-libs.git",
-        "tag": "v0.1.3",
-        "commit": "5b26b9399cb15fea6d568c0d2b078ebabded3aee"
+        "tag": "v0.1.5",
+        "commit": "c72b08e4902ab38e32a579ddbebe0455799e596d"
       }
     }
   }
